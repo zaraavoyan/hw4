@@ -1,0 +1,9 @@
+function draw() {
+  createCanvas(400, 400);
+  var rate = 0.9;
+	fill (255, 0, 0);
+	noStroke();
+  var target = 100;
+  ellipse(mouseX, mouseY, 15, 15);
+  x = target*rate + mouseX*(1-rate);
+}
