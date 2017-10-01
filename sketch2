@@ -1,0 +1,5 @@
+var w = 10; 
+while (w < width) {
+line ( 170, 0, w, height);
+w= w + 10;
+}
