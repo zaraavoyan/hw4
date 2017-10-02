@@ -1,0 +1,8 @@
+background (242,242,242);
+rectMode (CENTER);
+noFill();
+strokeWeight(1);
+rect (170,170,200,200);
+stroke (255,0,0);
+line (100,100,240,240);
+line (240,100,100,240);
